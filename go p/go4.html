@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>exercise4</title>
+    <style>
+
+    /* 자식이 있으면 부모는 필요 없음(height 값 생략) */
+    * {margin : 0; padding: 0}
+    #wrap {width: 100%; color: white; font-size: 40px; text-align: center; text-transform: uppercase}
+    #header-wrap {width: 100%; background-color: #3e2723;}
+    #banner-wrap {width: 100%;  background-color: #4e342e;}
+    #content-wrap {width: 100%; background-color: #5d4037;}
+    #footer-wrap {width: 100%;background-color: #6d4c41;}
+
+    .header-container {width: 1000px; height: 100px; background-color: #8d6e63; margin: 0 auto; line-height: 100px}
+    .banner-container {width: 1000px; height: 300px; background-color: #a1887f; margin: 0 auto; line-height: 300px}
+    .content-container {width: 1000px; height: 500px; background-color: #bcaaa4; margin: 0 auto; line-height: 500px}
+    .footer-container {width: 1000px; height: 100px; background-color: #d7ccc8; margin: 0 auto; line-height: 100px}
+    </style>
+  </head>
+  <body>
+     <div id="wrap">
+       <div id="header-wrap">
+          <div class="header-container">header</div>
+      </div>
+       <div id="banner-wrap">
+         <div class="banner-container">banner</div>
+       </div>
+       <div id="content-wrap">
+         <div class="content-container">content</div>
+       </div>
+       <div id="footer-wrap">
+         <div class="footer-container">footer</div>
+       </div>
+     </div>
+  </body>
+</html>
